@@ -5,7 +5,12 @@ set -xe
 apt-get update
 
 # install basic softwares
-apt-get install -y git vim curl wget net-tools python
+apt-get install -y vim curl wget net-tools python
+
+# Install and setup GIT
+apt-get install -y git
+git config --global user.name "udaysagar2177"
+git config --global user.email "udaysagar.2177@gmail.com"
 
 # install pip
 wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py
@@ -22,3 +27,5 @@ curl https://gist.githubusercontent.com/udaysagar2177/20bf6f8f996ff6c80566/raw/c
 pip install maestro
 
 fi
+
+# 
