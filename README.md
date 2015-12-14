@@ -1,4 +1,4 @@
-# Ubuntu Install Softwares
+# Ubuntu Install Softwares [![Build Status](https://travis-ci.org/udaysagar2177/unix_install_softwares.svg?branch=master)](https://travis-ci.org/udaysagar2177/unix_install_softwares)
 
 This is the script to initialize any Ubuntu machine with useful software of my choice
 

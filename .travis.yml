@@ -1,0 +1,4 @@
+language: bash
+script:
+  - sudo ./install_softwares.sh
+  - sudo ./install_softwares.sh "on_docker"
