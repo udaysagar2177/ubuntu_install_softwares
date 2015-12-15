@@ -21,7 +21,7 @@ rm get-pip.py
 if [[ $1 != "on_docker" ]]; then
 
 # install Docker, for ubuntu 14.04, 15.04, 15.10
-curl https://gist.githubusercontent.com/udaysagar2177/20bf6f8f996ff6c80566/raw/cc375eb821eb13ace9619e68fed13ff21df86b02/install_docker_on_ubuntu.sh | bash
+curl https://raw.githubusercontent.com/udaysagar2177/ubuntu_install_softwares/master/install_docker_on_ubuntu.sh | bash
 
 # install maestro-NG
 pip install maestro
