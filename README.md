@@ -1,4 +1,4 @@
-# Ubuntu Install Softwares [![Build Status](https://travis-ci.org/udaysagar2177/unix_install_softwares.svg?branch=master)](https://travis-ci.org/udaysagar2177/unix_install_softwares)
+# Ubuntu Install Softwares  [![Build Status](https://travis-ci.org/udaysagar2177/ubuntu_install_softwares.svg?branch=master)](https://travis-ci.org/udaysagar2177/ubuntu_install_softwares)
 
 This repo holds 
 script to Initialize any Ubuntu machine with useful software of my choice
