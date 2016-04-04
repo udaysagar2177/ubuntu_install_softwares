@@ -1,6 +1,5 @@
 language: bash
 script:
-  - sudo ./install_softwares.sh
-  - sudo ./install_softwares.sh "on_docker"
-  - sudo ./setup_bashrc.sh
+  - sudo ./init.sh
+  - sudo ./init.sh "on_docker"
   - ./detect_os.sh
