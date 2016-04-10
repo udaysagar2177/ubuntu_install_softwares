@@ -35,4 +35,4 @@ if [[ $1 != "on_docker" ]]; then
 fi
 
 # setup bashrc
-$sudo ./setup_bashrc.sh
+curl -sS https://raw.githubusercontent.com/udaysagar2177/ubuntu_install_softwares/master/setup_bashrc.sh | $sudo bash
