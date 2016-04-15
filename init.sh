@@ -13,6 +13,7 @@ fi
 $sudo apt-get update
 
 # install basic softwares
+$sudo apt-get install -y apt-transport-https python-software-properties software-properties-common
 $sudo apt-get install -y vim curl wget net-tools python
 
 # Install and setup GIT
