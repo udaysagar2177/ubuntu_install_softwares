@@ -31,7 +31,8 @@ if [[ $1 != "on_docker" ]]; then
 	# install docker
 	curl -sSL https://get.docker.com/ | $sudo sh
 
-	# install maestro-NG
+	# install maestro-NG and its dependency
+	$sudo apt-get install python-dev
 	$sudo pip install maestro
 fi
 
