@@ -21,8 +21,12 @@ alias ps="ps -ef"
 
 # docker
 alias dp="docker ps"
-## kills docker none images
-alias killdn="docker images | grep none | awk '{print $3}' | xargs docker rmi"
+## remove docker none images
+alias rmdn="docker images | grep none | awk '{print $3}' | xargs docker rmi"
+## kill docker container
+alias killdc="docker rm -f"${1}
+## kill all docker containers
+alias killdcall="docker rm -f $(docker ps -aq)"
 ## launch a ubuntu container
 alias dubuntu="docker run -it ubuntu bash"
 ## launch a centos container
